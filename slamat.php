@@ -1,6 +1,8 @@
 <?php
 $kata = "semangat siang kawan";
-$kata = "wayahe";
 
 echo $kata;
-?> 
+$namaBuah="apel";
+$nama_buah="jeruk";
+$namahewan="sapi";
+?>      
