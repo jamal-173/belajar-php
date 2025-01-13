@@ -1,5 +1,6 @@
 <?php
-$nilai =15;
+echo "Masukkan nilai : ";
+$nilai =fgets(STDIN);
 
 if($nilai<60){
     echo "Nilai : $nilai\n";
@@ -15,5 +16,8 @@ if($nilai<60){
     echo "Grade : B";
 }elseif($nilai<=100){
     echo "Nilai : A";
+}else{
+    echo "Nilai  anda tidak sesuai";
 }
 ?>
+
