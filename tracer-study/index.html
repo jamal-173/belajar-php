@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracer Study Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tracer Study Siswa</h1>
+        <form id="tracerForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="status">Status Pekerjaan:</label>
+            <select id="status" required>
+                <option value="">Pilih Status</option>
+                <option value="bekerja">Bekerja</option>
+                <option value="wirausaha">Wirausaha</option>
+                <option value="melanjutkan pendidikan">Melanjutkan Pendidikan</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+
+            <label for="skills">Keterampilan yang Diperoleh:</label>
+            <textarea id="skills" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
